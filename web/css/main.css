@@ -1,0 +1,381 @@
+
+body {
+    background-color: #f9faf3;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    line-height: 20px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h3 {
+	color: #95a5a6;
+	font-weight: 400;
+}
+
+h4 {
+	color: #95a5a6;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #95a5a6;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar-default {
+	background-color: #a6a296;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+    
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-default .navbar-brand  span {
+    color: #f26743;
+
+
+}
+
+.navbar-brand{
+    font-size: 21px !important;
+}
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.form-control {
+	height: 50px;
+	font-size: 18px;
+	width: 280px;
+}
+
+.inp{
+
+    box-shadow: 0 1px 0px #eee inset;
+    border-radius: 2px;
+    border: none;
+}
+
+.bt{
+    background-color: rgba(235, 86, 53, 1.0);
+    margin-left: 4px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+	color: white;
+
+	border: 1px solid rgba(235, 86, 53, 1.0) !important;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+i {
+	margin: 8px;
+	color: #eea057; 
+}
+
+
+/* HeaderWrap */
+
+/* http://themeforest.unitedthemes.com/themes/brooklyn/yellow/images/parallax-banner-1.jpg */
+/* http://startbootstrap.com/templates/stylish-portfolio/img/bg.jpg */
+
+
+
+
+
+.background{
+	background-color: #f9faf3;
+    background: #f9faf3 url(/assets/back.png) no-repeat center top; 
+    
+}
+#headerwrap {
+
+	
+	margin-top: -10px;
+	padding-top:200px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 744px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 114%;
+
+	/*
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	*/
+}
+
+#headerwrap h1 {
+	margin-top: 60px;
+	margin-bottom: 15px;
+	color: #eea057;
+	font-size: 90px;
+	font-weight: 300;
+	letter-spacing: 0px;
+
+}
+
+#headerwrap h2{
+	color: #a6a296;
+}
+
+#signup-form {
+	text-align: center;
+}
+
+#btn-signup {
+	background-color: #eea057;
+	border-color: #eea057 !important;
+}
+
+#logo {
+	color: #f9faf3;
+}
+
+#header-btns a {
+	color: #f9faf3;
+}
+
+#at-sign {
+	color: #eea057;
+	text-shadow:
+    -1px -1px 0 #f9faf3,
+    1px -1px 0 #f9faf3,
+    -1px 1px 0 #f9faf3,
+    1px 1px 0 #f9faf3;  
+}
+
+.header-btn {
+	position:relative;
+	margin: 8px;
+	color: #f9faf3;
+	background-color: #a6a296;
+	border-color: #f9faf3;
+}
+
+.header-btn:hover {
+	border-color: #eea057;
+	color: #f9faf3;
+}
+
+.site-page, .login-page {
+	color: #a6a296;
+	width:100%;
+	height:100%;
+	position:relative;
+	margin:auto;
+	display:block;
+}
+
+.site-page .inner-page, .login-page .inner-page {
+	color: #a6a296;
+	width: 45%;
+	margin: auto;
+	margin-top: 4%;
+	text-align: center;
+	position: relative;
+	display: block;
+}
+
+.site-page .inner-page ul {
+	color: #a6a296;
+	margin-left:40%;
+}
+
+.site-page .inner-page p {
+	color: #a6a296;
+	text-align:center;
+}
+
+.site-page h3, .login-page h3 {
+	color: #eea057;
+	text-decoration: underline;
+}
+
+#su-link, .response-link {
+	color: #eea057;
+	text-decoration: underline;
+}
+
+#si-btn, #si-btn2, #request-btn, #save-btn {
+	border-color: #a6a296;
+}
+
+#si-btn:hover {
+	color: #eea057;
+}
+
+.su-label {
+	display:block;
+}
+
+.su-input {
+	display:inline-block;
+}
+
+.request-form {
+	text-align:center;
+}
+
+.request-form button {
+	display:inline-block;
+}
+
+.request-form select, #trans-preferences select, #trans-preferences input[type=checkbox] {
+	background-color: #eea057;
+	color: white;
+	border-color: #eea057;
+	border-radius: 3px;
+}
+
+input:focus {
+	border-color: #eea057 !important;
+}
+
+div#request-match, div#next-request-match, div#request-accept {
+	display: none;
+}
+
+#page-content {
+	position:absolute;
+	width: 100%;
+	height:100%;
+	margin:auto;
+	display:block;
+}
+.user-login, .user-login p {
+	width: 100%;
+	height:100%;
+	margin:auto;
+	display:block;
+}
+
+
+#transactions {
+	float:right;
+	width:50%;
+	position:relative;
+}
+
+#user-preferences {
+	float:left;
+	width:50%;
+	position:relative;
+	border-right: 3px solid #a6a296;
+}
+
+#trans-preferences p input, #trans-preferences p select {
+	display:block;
+	margin:auto;
+}
+
+#trans-preferences p {
+	text-align:center;
+	margin-bottom:10px;
+}
+
+
+#inner-pref, #request-match, #next-request-match, #request-accept {
+	width:75%;
+	margin-top: 5px;
+}
+
+#inner-profile {
+	clear:both;
+	width:75%;
+}
+
+#user-preferences h4, #request-match h4, #next-request-match h4, #request-accept h4 {
+	text-decoration: underline;
+	color:#a6a296;
+	top: 10px;
+}
+
+#checkboxes-pref input {
+	display:inline !important;
+	
+}
+
+#user-preferences label {
+	margin:2px;
+}
